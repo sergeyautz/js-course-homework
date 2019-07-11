@@ -31,8 +31,7 @@ appData.expenses.a2 = b2;
 
 // 5
 
-alert('Ваш бюджет на месяц: ' + appData.budget / 30);
-alert('Ваш бюджет на месяц: ' + appData.budget / 30);
+
 
 
 
