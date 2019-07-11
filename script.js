@@ -40,8 +40,10 @@ appData.expenses.expMustHaveName = expMustHaveAmount;
 // 5
 
 alert ('Ваш бюджет на месяц: ' + appData.budget/30);
+console.log('Hello World!');
 
-console.log (expMustHaveName);
+
+
 
 
 
