@@ -1,3 +1,5 @@
+//Домашка №1. Студент: Сергей Ауц
+
 // 2
 let money;
 let time;
@@ -19,15 +21,18 @@ let appData = {
 
 // 4
 
-let expMustHaveName = prompt('Введите обязательную статью расходов в этом месяце');
-let expMustHaveAmount = prompt('Во сколько обойдется?');
+let a1 = prompt('Введите обязательную статью расходов в этом месяце');
+let b1 = prompt('Во сколько обойдется?');
+let a2 = prompt('Введите обязательную статью расходов в этом месяце');
+let b2 = prompt('Во сколько обойдется?');
 
-appData.expenses.expMustHaveName = expMustHaveAmount;
+appData.expenses.a1 = a2;
+appData.expenses.a2 = b2;
 
 // 5
 
 alert('Ваш бюджет на месяц: ' + appData.budget / 30);
-console.log('Hello World!');
+
 
 
 
