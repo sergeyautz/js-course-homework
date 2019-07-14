@@ -6,7 +6,8 @@ if (1==1){
 var car = {
     color: 'Red',
     model: 'BMW',
-    year: '2009'
+    year: '2009',
+    prize: '1000'
 
 };
 
