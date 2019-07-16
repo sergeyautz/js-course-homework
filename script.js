@@ -16,7 +16,7 @@ let appData = {
     optionalExpenses: {},
     income: [],
     savings: false
-  
+
 };
 
 // 4
@@ -27,76 +27,44 @@ let appData = {
 // let b2 = prompt('Во сколько обойдется?');
 
 let i = 1;
-while (i<3) {
+while (i < 3) {
     let a = prompt('Введите обязательную статью расходов в этом месяце ' + "№ " + i);
     let b = +prompt('Во сколько обойдется?');
-        if (a != "" && b != "") {
-            appData.expenses[a] = b; 
-            i++;
-            
-        } else {
-            alert ('Вы ввели пустые значения!');
-            continue;
-        }
+    if (a != "" && b != "") {
+        appData.expenses[a] = b;
+        i++;
+
+    } else {
+        alert('Вы ввели пустые значения!');
+        continue;
+    }
 
 }
 
-console.log (appData);
+console.log(appData);
 
 
-appData.budgetPerDay = Math.round(money/30);
+appData.budgetPerDay = Math.round(money / 30);
 
-if (money <=1000) {
-    document.write ("У вас маленький доход!");
-    } else if (money > 1000 && money < 10000) {
+if (money <= 1000) {
+    document.write("У вас маленький доход!");
+} else if (money > 1000 && money < 10000) {
 
-        document.write ('У вас средний доход!');
-    } else if (money >= 10000) {
+    document.write('У вас средний доход!');
+} else if (money >= 10000) {
 
-        document.write("У вас высокий доход!");
-        
-    }  else {
-        document.write ('Что-то вы ввели не то!')
-    }
+    document.write("У вас высокий доход!");
+
+} else {
+    document.write('Что-то вы ввели не то!')
+}
 
 document.write('<br> Ваш бюджет на день:' + appData.budgetPerDay + 'руб.');
-// document.write('<br> Ваши обязательные расходы: <br>' );
-//     for (n=0; n<=length.appData.expenses; n++) {
 
-//         document.write (appData.expenses[n] + '<br>');
-//     }
-
-document.write (appData.expenses);
-
-
-
-
-
-
-
+document.write(appData.expenses);
 
 
 // appData.expenses.a1 = a2;
 // appData.expenses.a2 = b2;
 
 // 5
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
