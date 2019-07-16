@@ -1,18 +1,34 @@
-if (1==1){
+//Условия
 
-    console.log('Test');
+//IF ELSE
+
+// let age = 19;
+
+// if (age >=18) {
+
+//     console.log ("Have some beer!");
+// } else {
+//     console.log ("No beer!")
+// }
+
+// SWITCH
+let age = 6;
+
+switch (age) {
+    case 5: 
+        console.log('Your age is 5!');
+        break;
+    case 6:
+        console.log('Your age is 6!');
+        break;
+           
 }
 
-var car = {
-    color: 'Red',
-    model: 'BMW',
-    year: '2009',
-    prize: '1000'
-
-};
+// WHILE
 
 
-console.log (car);
+
+
 
 
 
